@@ -1,0 +1,140 @@
+{
+  "invocationId": "2d372cd1-e4fd-44b4-b974-394341a50b7c",
+  "sourceKinesisStreamArn": "arn:aws:kinesis:us-west-2:229343956935:stream/app-config",
+  "deliveryStreamArn": "arn:aws:firehose:us-west-2:229343956935:deliverystream/app-config-save",
+  "region": "us-west-2",
+  "records": [
+      {
+          "recordId": "49609183612068877774927968505736343232979294009199427586000000",
+          "approximateArrivalTimestamp": 1595593838108,
+          "data": "ewoJImRhdGEiOgl7CgkJImlkIjoJNCwKCQkiY2hhdmUiOgkibGFiIiwKCQkidmFsb3IiOgkiczMiCgl9LAoJIm1ldGFkYXRhIjoJewoJCSJ0aW1lc3RhbXAiOgkiMjAyMC0wNy0yNFQxMjozMDozOC4wNzIxMjNaIiwKCQkicmVjb3JkLXR5cGUiOgkiZGF0YSIsCgkJIm9wZXJhdGlvbiI6CSJkZWxldGUiLAoJCSJwYXJ0aXRpb24ta2V5LXR5cGUiOgkic2NoZW1hLXRhYmxlIiwKCQkic2NoZW1hLW5hbWUiOgkiYXBwIiwKCQkidGFibGUtbmFtZSI6CSJjb25maWdzIiwKCQkidHJhbnNhY3Rpb24taWQiOgkxMjg4NDkwMjA5OQoJfQp9",
+          "kinesisRecordMetadata": {
+              "sequenceNumber": "49609183612068877774927968505736343232979294009199427586",
+              "subsequenceNumber": 0,
+              "partitionKey": "app.configs",
+              "shardId": "shardId-000000000000",
+              "approximateArrivalTimestamp": 1595593838108
+          }
+      },
+      {
+          "recordId": "49609183612068877774927968505737552158798908638374133762000000",
+          "approximateArrivalTimestamp": 1595593838138,
+          "data": "ewoJImRhdGEiOgl7CgkJImlkIjoJNiwKCQkiY2hhdmUiOgkibGFiIiwKCQkidmFsb3IiOgkiZmlyZWhvc2UiCgl9LAoJIm1ldGFkYXRhIjoJewoJCSJ0aW1lc3RhbXAiOgkiMjAyMC0wNy0yNFQxMjozMDozOC4xMzQwNTRaIiwKCQkicmVjb3JkLXR5cGUiOgkiZGF0YSIsCgkJIm9wZXJhdGlvbiI6CSJkZWxldGUiLAoJCSJwYXJ0aXRpb24ta2V5LXR5cGUiOgkic2NoZW1hLXRhYmxlIiwKCQkic2NoZW1hLW5hbWUiOgkiYXBwIiwKCQkidGFibGUtbmFtZSI6CSJjb25maWdzIiwKCQkidHJhbnNhY3Rpb24taWQiOgkxMjg4NDkwMjM0NwoJfQp9",
+          "kinesisRecordMetadata": {
+              "sequenceNumber": "49609183612068877774927968505737552158798908638374133762",
+              "subsequenceNumber": 0,
+              "partitionKey": "app.configs",
+              "shardId": "shardId-000000000000",
+              "approximateArrivalTimestamp": 1595593838138
+          }
+      },
+      {
+          "recordId": "49609183612068877774927968505738761084618523267548839938000000",
+          "approximateArrivalTimestamp": 1595593838145,
+          "data": "ewoJImRhdGEiOgl7CgkJImlkIjoJNywKCQkiY2hhdmUiOgkibGFiIiwKCQkidmFsb3IiOgkiYXdzIgoJfSwKCSJtZXRhZGF0YSI6CXsKCQkidGltZXN0YW1wIjoJIjIwMjAtMDctMjRUMTI6MzA6MzguMTQxMjg3WiIsCgkJInJlY29yZC10eXBlIjoJImRhdGEiLAoJCSJvcGVyYXRpb24iOgkiZGVsZXRlIiwKCQkicGFydGl0aW9uLWtleS10eXBlIjoJInNjaGVtYS10YWJsZSIsCgkJInNjaGVtYS1uYW1lIjoJImFwcCIsCgkJInRhYmxlLW5hbWUiOgkiY29uZmlncyIsCgkJInRyYW5zYWN0aW9uLWlkIjoJMTI4ODQ5MDI2MDEKCX0KfQ==",
+          "kinesisRecordMetadata": {
+              "sequenceNumber": "49609183612068877774927968505738761084618523267548839938",
+              "subsequenceNumber": 0,
+              "partitionKey": "app.configs",
+              "shardId": "shardId-000000000000",
+              "approximateArrivalTimestamp": 1595593838145
+          }
+      },
+      {
+          "recordId": "49609183612068877774927968505739970010438139958307848194000000",
+          "approximateArrivalTimestamp": 1595593868464,
+          "data": "ewoJImRhdGEiOgl7CgkJImlkIjoJOCwKCQkiY2hhdmUiOgkibGFiIiwKCQkidmFsb3IiOgkiczMiCgl9LAoJIm1ldGFkYXRhIjoJewoJCSJ0aW1lc3RhbXAiOgkiMjAyMC0wNy0yNFQxMjozMTowOC40MjcyNzdaIiwKCQkicmVjb3JkLXR5cGUiOgkiZGF0YSIsCgkJIm9wZXJhdGlvbiI6CSJpbnNlcnQiLAoJCSJwYXJ0aXRpb24ta2V5LXR5cGUiOgkic2NoZW1hLXRhYmxlIiwKCQkic2NoZW1hLW5hbWUiOgkiYXBwIiwKCQkidGFibGUtbmFtZSI6CSJjb25maWdzIiwKCQkidHJhbnNhY3Rpb24taWQiOgkxMjg4NDkwMjg1MAoJfQp9",
+          "kinesisRecordMetadata": {
+              "sequenceNumber": "49609183612068877774927968505739970010438139958307848194",
+              "subsequenceNumber": 0,
+              "partitionKey": "app.configs",
+              "shardId": "shardId-000000000000",
+              "approximateArrivalTimestamp": 1595593868464
+          }
+      },
+      {
+          "recordId": "49609183612068877774927968505741178936257754587482554370000000",
+          "approximateArrivalTimestamp": 1595593868471,
+          "data": "ewoJImRhdGEiOgl7CgkJImlkIjoJMiwKCQkiY2hhdmUiOgkibGFib3JhdMOzcmlvIiwKCQkidmFsb3IiOgkiRE1TIgoJfSwKCSJtZXRhZGF0YSI6CXsKCQkidGltZXN0YW1wIjoJIjIwMjAtMDctMjRUMTI6MzE6MDguNDY3OTQ1WiIsCgkJInJlY29yZC10eXBlIjoJImRhdGEiLAoJCSJvcGVyYXRpb24iOgkidXBkYXRlIiwKCQkicGFydGl0aW9uLWtleS10eXBlIjoJInNjaGVtYS10YWJsZSIsCgkJInNjaGVtYS1uYW1lIjoJImFwcCIsCgkJInRhYmxlLW5hbWUiOgkiY29uZmlncyIsCgkJInRyYW5zYWN0aW9uLWlkIjoJMTI4ODQ5MDMwOTgKCX0KfQ==",
+          "kinesisRecordMetadata": {
+              "sequenceNumber": "49609183612068877774927968505741178936257754587482554370",
+              "subsequenceNumber": 0,
+              "partitionKey": "app.configs",
+              "shardId": "shardId-000000000000",
+              "approximateArrivalTimestamp": 1595593868471
+          }
+      },
+      {
+          "recordId": "49609183612068877774927968505742387862077369560254644226000000",
+          "approximateArrivalTimestamp": 1595593873479,
+          "data": "ewoJImRhdGEiOgl7CgkJImlkIjoJOSwKCQkiY2hhdmUiOgkibGFiIiwKCQkidmFsb3IiOgkiZG1zIgoJfSwKCSJtZXRhZGF0YSI6CXsKCQkidGltZXN0YW1wIjoJIjIwMjAtMDctMjRUMTI6MzE6MTMuNDc1MjMxWiIsCgkJInJlY29yZC10eXBlIjoJImRhdGEiLAoJCSJvcGVyYXRpb24iOgkiaW5zZXJ0IiwKCQkicGFydGl0aW9uLWtleS10eXBlIjoJInNjaGVtYS10YWJsZSIsCgkJInNjaGVtYS1uYW1lIjoJImFwcCIsCgkJInRhYmxlLW5hbWUiOgkiY29uZmlncyIsCgkJInRyYW5zYWN0aW9uLWlkIjoJMTI4ODQ5MDMzNzIKCX0KfQ==",
+          "kinesisRecordMetadata": {
+              "sequenceNumber": "49609183612068877774927968505742387862077369560254644226",
+              "subsequenceNumber": 0,
+              "partitionKey": "app.configs",
+              "shardId": "shardId-000000000000",
+              "approximateArrivalTimestamp": 1595593873479
+          }
+      },
+      {
+          "recordId": "49609183612068877774927968505743596787896985976135745538000000",
+          "approximateArrivalTimestamp": 1595593898807,
+          "data": "ewoJImRhdGEiOgl7CgkJImlkIjoJMTAsCgkJImNoYXZlIjoJImxhYiIsCgkJInZhbG9yIjoJImtpbmVzaXMiCgl9LAoJIm1ldGFkYXRhIjoJewoJCSJ0aW1lc3RhbXAiOgkiMjAyMC0wNy0yNFQxMjozMTozOC43Njg3MzNaIiwKCQkicmVjb3JkLXR5cGUiOgkiZGF0YSIsCgkJIm9wZXJhdGlvbiI6CSJpbnNlcnQiLAoJCSJwYXJ0aXRpb24ta2V5LXR5cGUiOgkic2NoZW1hLXRhYmxlIiwKCQkic2NoZW1hLW5hbWUiOgkiYXBwIiwKCQkidGFibGUtbmFtZSI6CSJjb25maWdzIiwKCQkidHJhbnNhY3Rpb24taWQiOgkxMjg4NDkwMzYyMQoJfQp9",
+          "kinesisRecordMetadata": {
+              "sequenceNumber": "49609183612068877774927968505743596787896985976135745538",
+              "subsequenceNumber": 0,
+              "partitionKey": "app.configs",
+              "shardId": "shardId-000000000000",
+              "approximateArrivalTimestamp": 1595593898807
+          }
+      },
+      {
+          "recordId": "49609183612068877774927968505744805713716600605310451714000000",
+          "approximateArrivalTimestamp": 1595593898819,
+          "data": "ewoJImRhdGEiOgl7CgkJImlkIjoJMTEsCgkJImNoYXZlIjoJImxhYiIsCgkJInZhbG9yIjoJImVtciIKCX0sCgkibWV0YWRhdGEiOgl7CgkJInRpbWVzdGFtcCI6CSIyMDIwLTA3LTI0VDEyOjMxOjM4LjgxNTIzMVoiLAoJCSJyZWNvcmQtdHlwZSI6CSJkYXRhIiwKCQkib3BlcmF0aW9uIjoJImluc2VydCIsCgkJInBhcnRpdGlvbi1rZXktdHlwZSI6CSJzY2hlbWEtdGFibGUiLAoJCSJzY2hlbWEtbmFtZSI6CSJhcHAiLAoJCSJ0YWJsZS1uYW1lIjoJImNvbmZpZ3MiLAoJCSJ0cmFuc2FjdGlvbi1pZCI6CTEyODg0OTAzODc0Cgl9Cn0=",
+          "kinesisRecordMetadata": {
+              "sequenceNumber": "49609183612068877774927968505744805713716600605310451714",
+              "subsequenceNumber": 0,
+              "partitionKey": "app.configs",
+              "shardId": "shardId-000000000000",
+              "approximateArrivalTimestamp": 1595593898819
+          }
+      },
+      {
+          "recordId": "49609183612068877774927968505746014639536215234485157890000000",
+          "approximateArrivalTimestamp": 1595593898829,
+          "data": "ewoJImRhdGEiOgl7CgkJImlkIjoJMTIsCgkJImNoYXZlIjoJImxhYiIsCgkJInZhbG9yIjoJImF0aGVuYSIKCX0sCgkibWV0YWRhdGEiOgl7CgkJInRpbWVzdGFtcCI6CSIyMDIwLTA3LTI0VDEyOjMxOjM4LjgyMjIzMFoiLAoJCSJyZWNvcmQtdHlwZSI6CSJkYXRhIiwKCQkib3BlcmF0aW9uIjoJImluc2VydCIsCgkJInBhcnRpdGlvbi1rZXktdHlwZSI6CSJzY2hlbWEtdGFibGUiLAoJCSJzY2hlbWEtbmFtZSI6CSJhcHAiLAoJCSJ0YWJsZS1uYW1lIjoJImNvbmZpZ3MiLAoJCSJ0cmFuc2FjdGlvbi1pZCI6CTEyODg0OTA0MTIzCgl9Cn0=",
+          "kinesisRecordMetadata": {
+              "sequenceNumber": "49609183612068877774927968505746014639536215234485157890",
+              "subsequenceNumber": 0,
+              "partitionKey": "app.configs",
+              "shardId": "shardId-000000000000",
+              "approximateArrivalTimestamp": 1595593898829
+          }
+      },
+      {
+          "recordId": "49609183612068877774927968505747223565355830482135154690000000",
+          "approximateArrivalTimestamp": 1595593908898,
+          "data": "ewoJImRhdGEiOgl7CgkJImlkIjoJMiwKCQkiY2hhdmUiOgkibGFib3JhdMOzcmlvIiwKCQkidmFsb3IiOgkiRE1TIgoJfSwKCSJtZXRhZGF0YSI6CXsKCQkidGltZXN0YW1wIjoJIjIwMjAtMDctMjRUMTI6MzE6NDguODc5MDcyWiIsCgkJInJlY29yZC10eXBlIjoJImRhdGEiLAoJCSJvcGVyYXRpb24iOgkiZGVsZXRlIiwKCQkicGFydGl0aW9uLWtleS10eXBlIjoJInNjaGVtYS10YWJsZSIsCgkJInNjaGVtYS1uYW1lIjoJImFwcCIsCgkJInRhYmxlLW5hbWUiOgkiY29uZmlncyIsCgkJInRyYW5zYWN0aW9uLWlkIjoJMTI4ODQ5MDQzNzUKCX0KfQ==",
+          "kinesisRecordMetadata": {
+              "sequenceNumber": "49609183612068877774927968505747223565355830482135154690",
+              "subsequenceNumber": 0,
+              "partitionKey": "app.configs",
+              "shardId": "shardId-000000000000",
+              "approximateArrivalTimestamp": 1595593908898
+          }
+      },
+      {
+          "recordId": "49609183612068877774927968505748432491175445111309860866000000",
+          "approximateArrivalTimestamp": 1595593908906,
+          "data": "ewoJImRhdGEiOgl7CgkJImlkIjoJMTEsCgkJImNoYXZlIjoJImxhYiIsCgkJInZhbG9yIjoJIkVNUiIKCX0sCgkibWV0YWRhdGEiOgl7CgkJInRpbWVzdGFtcCI6CSIyMDIwLTA3LTI0VDEyOjMxOjQ4LjkwMTkzMFoiLAoJCSJyZWNvcmQtdHlwZSI6CSJkYXRhIiwKCQkib3BlcmF0aW9uIjoJInVwZGF0ZSIsCgkJInBhcnRpdGlvbi1rZXktdHlwZSI6CSJzY2hlbWEtdGFibGUiLAoJCSJzY2hlbWEtbmFtZSI6CSJhcHAiLAoJCSJ0YWJsZS1uYW1lIjoJImNvbmZpZ3MiLAoJCSJ0cmFuc2FjdGlvbi1pZCI6CTEyODg0OTA0NjMzCgl9Cn0=",
+          "kinesisRecordMetadata": {
+              "sequenceNumber": "49609183612068877774927968505748432491175445111309860866",
+              "subsequenceNumber": 0,
+              "partitionKey": "app.configs",
+              "shardId": "shardId-000000000000",
+              "approximateArrivalTimestamp": 1595593908906
+          }
+      }
+  ]
+}
